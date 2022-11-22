@@ -67,12 +67,14 @@
 	.image
 	{
 		display: inline-block;
+		border: 5px solid rgb(12, 12, 12);
 	}
 	
 	.image img
 	{
 		display: block;
 		width: 100%;
+		border: 2px solid rgb(6, 6, 6);
 	}
 	
 	.image-full
@@ -364,7 +366,6 @@
 	
 	.title h2
 	{
-		text-transform: lowercase;
 		font-size: 2.8em;
 	}
 	
@@ -425,6 +426,7 @@
 		display: inline-block;
 		margin-bottom: 1em;
 		border-radius: 50%;
+		border: 1px solid rgb(10, 9, 10);
 	}
 
 /*********************************************************************************/
@@ -452,7 +454,7 @@
 		text-decoration:  none;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: rgba(255,255,255,0.5);
+		color: rgba(243, 237, 237, 0.5);
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -497,9 +499,10 @@
 		float: right;
 		width: 800px;
 		padding: 3em 50px 5em 50px;
-		background: #FFF;
+		background: rgb(239, 244, 245);
 		border-top: 6px solid #2980b9;
 		text-align: center;
+		font-family: sans-serif;
 	}
 
 /*********************************************************************************/
@@ -563,4 +566,16 @@
 		display: block;
 		color: #000;
 		background: red;
+	}
+	.proj_summary
+	{
+		background-color: #a1daf4;
+		box-sizing: border-box;
+
+		
+	}
+	.pr_image
+	{
+		display: inline-block;
+		border: 3px solid rgb(181, 17, 126);
 	}
