@@ -571,6 +571,9 @@
 	{
 		background-color: #a1daf4;
 		box-sizing: border-box;
+		border-color: orange;  
+		border-width: 2px;  
+		border-style: inset;  
 
 		
 	}
